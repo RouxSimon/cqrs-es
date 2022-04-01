@@ -31,4 +31,4 @@ jobs:
       - name: Unit tests
         run: npm run nx -- test
       - name: Build
-        run: npm run nx -- build
+        run: npm run nx --buildLibsFromSource
